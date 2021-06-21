@@ -1,3 +1,17 @@
-window.onload = function () {
-    console.log('Hallo')
+function addLoadEvent(func) {
+    const oldOnLoad = window.onload
+    if (typeof window.onload != 'function') {
+        window.onload = func
+    } else {
+        window.onload = function () {
+            if (oldOnLoad) {
+                oldOnLoad(undefined)
+            }
+            func()
+        }
+    }
 }
+
+addLoadEvent(function () {
+    print('Hallo')
+})

@@ -1,7 +1,14 @@
 :root {
-    --custom-property: #abcdef;
+    --bg: #424242;
+    --fg: #fff;
 }
 
 * {
     font-family: 'Montserrat', sans-serif;
+    color: var(--fg);
+}
+
+body {
+    background-color: var(--bg);
+    overflow-x: hidden;
 }
