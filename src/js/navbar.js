@@ -31,13 +31,13 @@ addLoadEvent(function () {
     )
     addNavbarListItem(
         list,
-        'probleme',
+        '/probleme',
         '<i class="fas fa-bicycle"></i>' +
         '<span class="vertical-align">Probleme</span>'
     )
     addNavbarListItem(
         list,
-        'verbesserung',
+        '/verbesserung',
         '<i class="fas fa-walking"></i>' +
         '<span class="vertical-align">Verbesserung</span>'
     )
