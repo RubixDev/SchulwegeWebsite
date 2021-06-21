@@ -18,7 +18,7 @@
     background-color: #0005;
 }
 
-#imageSlider > img {
+#imageSlider>img {
     position: absolute;
     top: 0;
     left: -50%;
@@ -26,7 +26,7 @@
 }
 
 @media (min-width: 100vh) {
-    #imageSlider > img {
+    #imageSlider>img {
         left: 0;
         width: 100%;
         top: -40%;
