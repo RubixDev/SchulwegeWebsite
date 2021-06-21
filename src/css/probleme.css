@@ -1,0 +1,7 @@
+h2{
+    line-break: anywhere;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 500px;
+}

@@ -31,15 +31,15 @@ addLoadEvent(function () {
     )
     addNavbarListItem(
         list,
-        '/creations',
-        '<i class="fas fa-code"></i>' +
-        '<span class="vertical-align">Creations</span>'
+        'probleme',
+        '<i class="fas fa-bicycle"></i>' +
+        '<span class="vertical-align">Probleme</span>'
     )
     addNavbarListItem(
         list,
-        '/videos',
-        '<i class="fas fa-film"></i>' +
-        '<span class="vertical-align">Videos</span>'
+        'verbesserung',
+        '<i class="fas fa-walking"></i>' +
+        '<span class="vertical-align">Verbesserung</span>'
     )
 
     navbarList.appendChild(list)
