@@ -1,15 +1,18 @@
 :root {
-    --bg: #424242;
-    --fg: #fff;
+    --green-200: #b1ff2d;
+    --green-300: #9FE528;
+    --green-400: #85BF21;
+    --green-500: #587F16;
+    --green-700: #1d2b07;
 }
 
 * {
     font-family: 'Montserrat', sans-serif;
-    color: var(--fg);
+    color: var(--green-200);
 }
 
 body {
-    background-color: var(--bg);
+    background-color: var(--green-700);
     overflow-x: hidden;
     text-align: center;
 }
