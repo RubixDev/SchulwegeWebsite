@@ -1,0 +1,7 @@
+:root {
+    --custom-property: #abcdef;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
