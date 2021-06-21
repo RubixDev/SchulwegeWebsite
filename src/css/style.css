@@ -22,3 +22,8 @@ body {
     font-size: 3.5rem;
     text-align: center;
 }
+
+
+#slider{
+    overflow: hidden;
+}
