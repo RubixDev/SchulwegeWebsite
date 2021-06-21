@@ -15,7 +15,7 @@ body {
     background-color: var(--gray);
     overflow-x: hidden;
     text-align: center;
-    margin: 0;
+    margin: 0 0 4rem 0;
 }
 
 #title{
