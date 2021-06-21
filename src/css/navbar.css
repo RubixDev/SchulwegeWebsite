@@ -2,7 +2,7 @@
 #navbar-list {
     position: fixed;
     width: 100%;
-    background: var(--green-700);
+    background: var(--green-500);
     transform: scaleY(0);
     transform-origin: top;
     transition: transform .4s;
@@ -37,7 +37,7 @@
     display: block;
     position: relative;
     margin: .7rem;
-    color: var(--green-200);
+    color: var(--white);
     text-decoration: none;
     font-size: 1rem;
 }
@@ -55,7 +55,7 @@
     bottom: -.3rem;
     left: 0;
     transform: scaleX(0);
-    background-color: var(--green-200);
+    background-color: var(--contrast);
     transition-duration: .3s;
 }
 
@@ -104,7 +104,7 @@
     height: .125rem;
     width: 2rem;
     border-radius: .0625rem;
-    background: var(--green-200);
+    background: var(--white);
     transform-origin: center;
     transition-duration: .3s;
 }
