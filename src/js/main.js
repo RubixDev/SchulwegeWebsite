@@ -11,7 +11,3 @@ function addLoadEvent(func) {
         }
     }
 }
-
-addLoadEvent(function () {
-    print('Hallo')
-})
