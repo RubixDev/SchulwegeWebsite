@@ -37,7 +37,7 @@ addLoadEvent(function () {
     )
     addNavbarListItem(
         list,
-        '/verbesserung',
+        '/verbesserungen',
         '<i class="fas fa-walking"></i>' +
         '<span class="vertical-align">Verbesserung</span>'
     )

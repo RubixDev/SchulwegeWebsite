@@ -18,6 +18,26 @@ body {
     margin: 0;
 }
 
+.spacer {
+    min-height: 10rem;
+}
+
+.socicon {
+    margin-top: 4rem;
+}
+
+.socicon:hover {
+    cursor: pointer;
+}
+
+.socicon>i {
+    font-size: 1.75rem;
+}
+
+#mainContainer {
+    margin: 0 2rem;
+}
+
 #title {
     font-size: 3.5rem;
     text-align: center;
@@ -43,8 +63,9 @@ body {
 
 #boxContainer {
     justify-content: center;
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
@@ -57,16 +78,47 @@ body {
     padding: 0 1rem;
 }
 
-@media (max-width: 51rem) {
-    #boxContainer {
-        grid-auto-flow: row;
-    }
-}
-
 
 @media (max-width: 47rem) {
     #waves {
         height: 30%;
         margin-bottom: -12%;
     }
+}
+
+.btn {
+    background-color: #0000;
+    min-height: 3rem;
+    min-width: 12rem;
+    font-size: 1rem;
+    border: .25rem solid var(--contrast);
+    border-radius: 1rem;
+    transition-duration: .3s;
+}
+
+.btn>* {
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+.btn:hover,
+.btn:focus {
+    outline: none;
+    cursor: pointer;
+    background-color: var(--contrast);
+}
+
+.btn-arrow::after {
+    content: "\f054";
+    font-family: 'Font Awesome 5 Free', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding-left: .5rem;
+    position: relative;
+    transition: padding-left .2s;
+    vertical-align: middle;
+}
+
+.btn:hover::after {
+    padding-left: .75rem;
 }
