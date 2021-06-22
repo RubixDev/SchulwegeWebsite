@@ -13,9 +13,9 @@ function nextImage() {
 
 addLoadEvent(function () {
     const imageSlider = document.getElementById('imageSlider')
-    for (let imageIndex = 1; imageIndex <= 7; imageIndex++) {
+    for (let imageIndex = 1; imageIndex <= 10; imageIndex++) {
         const image = document.createElement('img')
-        image.src = `assets/slideshow/0${imageIndex}.webp`
+        image.src = `assets/slideshow/${imageIndex.zeroPadded(2)}.webp`
         imageSlider.appendChild(image)
     }
 })
