@@ -44,8 +44,8 @@ addLoadEvent(function () {
 
     addNavbarListItem(
         list,
-        '/interview',
-        '<i class="fas fa-walking"></i>' +
+        '/interviews',
+        '<i class="fas fa-microphone-alt"></i>' +
         '<span class="vertical-align">Interviews</span>'
     )
 
