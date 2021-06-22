@@ -21,14 +21,10 @@
 #imageSlider>img {
     position: absolute;
     top: 0;
-    left: -50%;
-    transition-duration: 1s;
-}
-
-@media (min-width: 100vh) {
-    #imageSlider>img {
-        left: 0;
-        width: 100%;
-        top: -40%;
-    }
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    transition: opacity 1s;
 }
