@@ -45,18 +45,32 @@ h2 {
 
 .markerCard {
     background-color: var(--gray);
-    min-width: fit-content;
-    padding: 0.1rem 1rem;
+    min-width: 20rem;
+    padding: 10rem 1rem 1rem;
     border-radius: 1rem;
     text-align: left;
+    position: relative;
+    overflow: hidden;
 
     opacity: 0;
     transform: scale(0);
     transform-origin: top left;
-    transition: opacity,transform .4s;
+    transition-property: opacity, transform;
+    transition-duration: .4s;
 }
 
 .marker:hover>.markerCard {
     opacity: 100;
     transform: scale(100%);
+}
+
+.markerCardImg {
+    position: absolute;
+    height: 10rem;
+    width: 102%;
+    top: -1%;
+    left: -1%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
 }
