@@ -1,7 +1,62 @@
 h2 {
-    line-break: anywhere;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    max-width: 500px;
+    max-width: 32rem;
+}
+
+#map {
+    position: relative;
+    max-width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#map>img {
+    max-width: 100%;
+    max-height: 42rem;
+}
+
+#mapMobile {
+    display: none;
+}
+
+@media (max-width: 64rem) {
+    #map {
+        display: none;
+    }
+
+    #mapMobile {
+        display: block;
+    }
+}
+
+.marker {
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    transform: translate(-50%, -112%);
+}
+
+.marker>i {
+    color: red;
+    font-size: 2rem;
+}
+
+.markerCard {
+    background-color: var(--gray);
+    min-width: fit-content;
+    padding: 0.1rem 1rem;
+    border-radius: 1rem;
+    text-align: left;
+
+    opacity: 0;
+    transform: scale(0);
+    transform-origin: top left;
+    transition: opacity,transform .4s;
+}
+
+.marker:hover>.markerCard {
+    opacity: 100;
+    transform: scale(100%);
 }
