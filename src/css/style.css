@@ -15,7 +15,7 @@ body {
     background-color: var(--gray);
     overflow-x: hidden;
     text-align: center;
-    margin: 0 0 4rem 0;
+    margin: 0;
 }
 
 #title {
@@ -28,7 +28,7 @@ body {
     overflow: hidden;
 }
 
-#waves{
+#waves {
     text-align: center;
     align-content: center;
     margin: -1% 0;
@@ -41,8 +41,31 @@ body {
     padding: 0;
 }
 
+#boxContainer {
+    justify-content: center;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1rem;
+}
+
+.textBox {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 1.5rem;
+    width: 25rem;
+    height: 15rem;
+    padding: 0 1rem;
+}
+
+@media (max-width: 51rem) {
+    #boxContainer {
+        grid-auto-flow: row;
+    }
+}
+
+
 @media (max-width: 47rem) {
-    #waves{
+    #waves {
         height: 30%;
         margin-bottom: -12%;
     }
