@@ -45,13 +45,14 @@ h2 {
 }
 
 .markerCard {
-    background-color: var(--gray);
-    min-width: 20rem;
-    padding: 10rem 1rem 1rem;
+    background-color: var(--gray-light);
+    min-width: 35rem;
+    padding: 10rem 1.5rem 1rem;
     border-radius: 1rem;
     text-align: left;
     position: relative;
     overflow: hidden;
+    font-size: .875rem;
 
     opacity: 0;
     transform: scale(0);

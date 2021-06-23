@@ -42,7 +42,15 @@ addLoadEvent(function () {
         25.3,
         25,
         'Hahnerberg Kreuzung',
-        'Baustelle: Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum iusto reprehenderit consequatur quae aperiam optio voluptatum delectus aut ea ad.',
+        'Viele der Schülerinnen und Schüler müssen die große Hahnerberg-Kreuzung umfahren. Im Moment stellt dies einige Probleme dar. ' + 
+        'Auf der Kreuzung stehen vielen Baustellenschilder, sodass man schnell  den Überblick verlieren kann. ' + 
+        'Um die Kreuzung mit dem Fahrrad zu überqueren, ist es sicherer, die vorhandenen Ampeln zu nutzen. ' + 
+        'Mit dem Fahrrad auf der Straße zu bleiben könnte man fast schon als Selbstmord bezeichnen. ' + 
+        'Bereits beim Einordnen in die richtige Abbiegerspur treten Probleme auf. ' + 
+        'Da dort sowohl Busse und Autos, als auch größere Laster herfahren, werden Fahrradfahrer schnell übersehen. ' + 
+        'Wenn man sich doch dafür entscheidet die Ampeln zu nutzen, treten  weitere Komplikationen auf. ' + 
+        'Größtenteils sind die Bürgersteige mit Schlaglöchern oder Baumwurzeln übersehen, sodass Fahrradfahrer ausweichen müssen. ' +
+        'Zudem sind die Bürgersteige viel zu schmal. Es ist Fußgängern und Fahrradfahrern nicht möglich  einen Weg zu benutzen.',
         'hahnerberg.webp'
     )
 })
