@@ -13,7 +13,7 @@ function nextImage() {
 
 addLoadEvent(function () {
     const imageSlider = document.getElementById('imageSlider')
-    for (let imageIndex = 1; imageIndex <= 10; imageIndex++) {
+    for (let imageIndex = 1; imageIndex <= 9; imageIndex++) {
         const image = document.createElement('img')
         image.src = `assets/slideshow/${imageIndex.zeroPadded(2)}.webp`
         imageSlider.appendChild(image)
