@@ -1,13 +1,25 @@
-section{
+section {
     min-height: 20rem;
-    padding: 1rem;
+    padding: 1rem 2rem;
+    text-align: center;
 }
 
-.sectionSpacer{
-    width: 90%;
-    background-color: #679713;
-    position: absolute;
+#sectionContainer {
+    margin: 2rem;
+}
+
+.sectionText{
+    max-width: 60rem;
+    text-align: start;
+    flex-basis: 200%;
+
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.sectionSpacer {
+    width: 100%;
+    background-color: var(--green-500);
     height: 1px;
 }
