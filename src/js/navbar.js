@@ -1,10 +1,14 @@
-function addNavbarListItem(list, href, html) {
+function _addNavbarListItem(list, href, html) {
     const listItem = document.createElement('li')
     const link = document.createElement('a')
     link.setAttribute('href', href)
     link.innerHTML = html
     listItem.appendChild(link)
     list.appendChild(listItem)
+}
+
+function addNavbarListItem(list, href, icon, text) {
+    _addNavbarListItem(list, href, `<i class="${icon}"></i><span style="vertical-align: middle;">${text}</span>`)
 }
 
 addLoadEvent(function () {
@@ -26,34 +30,34 @@ addLoadEvent(function () {
     addNavbarListItem(
         list,
         '/',
-        '<i class="fas fa-home"></i>' +
-        '<span class="vertical-align">Home</span>'
+        'fas fa-home',
+        'Start'
     )
     addNavbarListItem(
         list,
         '/probleme',
-        '<i class="fas fa-exclamation-triangle"></i>' +
-        '<span class="vertical-align">Probleme</span>'
+        'fas fa-exclamation-triangle',
+        'Probleme'
     )
     addNavbarListItem(
         list,
         '/verbesserungen',
-        '<i class="fas fa-lightbulb"></i>' +
-        '<span class="vertical-align">Verbesserung</span>'
+        'fas fa-lightbulb',
+        'Ideen'
     )
 
     addNavbarListItem(
         list,
         '/interviews',
-        '<i class="fas fa-microphone-alt"></i>' +
-        '<span class="vertical-align">Interviews</span>'
+        'fas fa-microphone-alt',
+        'Interviews'
     )
 
     addNavbarListItem(
         list,
         '/about',
-        '<i class="fas fa-users"></i>' +
-        '<span class="vertical-align">Über das Projekt</span>'
+        'fas fa-info',
+        'Über das Projekt'
     )
 
     navbarList.appendChild(list)
