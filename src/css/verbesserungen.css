@@ -1,0 +1,11 @@
+#listContainer{
+    text-align: center;
+    position: relative;
+    max-width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+li{
+    font-size: larger;
+}
