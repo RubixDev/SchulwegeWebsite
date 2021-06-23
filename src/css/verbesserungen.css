@@ -1,11 +1,13 @@
-#listContainer{
-    text-align: center;
-    position: relative;
-    max-width: fit-content;
-    left: 50%;
-    transform: translateX(-50%);
+section{
+    min-height: 20rem;
+    padding: 1rem;
 }
 
-li{
-    font-size: larger;
+.sectionSpacer{
+    width: 90%;
+    background-color: #679713;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1px;
 }
