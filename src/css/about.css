@@ -12,7 +12,6 @@ section {
     max-width: 60rem;
     text-align: start;
     flex-basis: 200%;
-
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -28,9 +27,4 @@ section {
     display: flex;
     gap: 5rem;
     justify-content: center;
-}
-
-#waves{
-    width: 150%;
-    transition: width 1s;
 }
