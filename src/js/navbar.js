@@ -41,7 +41,7 @@ addLoadEvent(function () {
     )
     addNavbarListItem(
         list,
-        '/verbesserungen',
+        '/ideen',
         'fas fa-lightbulb',
         'Ideen'
     )
