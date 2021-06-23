@@ -32,13 +32,13 @@ addLoadEvent(function () {
     addNavbarListItem(
         list,
         '/probleme',
-        '<i class="fas fa-bicycle"></i>' +
+        '<i class="fas fa-exclamation-triangle"></i>' +
         '<span class="vertical-align">Probleme</span>'
     )
     addNavbarListItem(
         list,
         '/verbesserungen',
-        '<i class="fas fa-walking"></i>' +
+        '<i class="fas fa-lightbulb"></i>' +
         '<span class="vertical-align">Verbesserung</span>'
     )
 

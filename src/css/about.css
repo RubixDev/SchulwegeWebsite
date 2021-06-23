@@ -1,0 +1,36 @@
+section {
+    min-height: 20rem;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+#sectionContainer {
+    margin: 2rem;
+}
+
+.sectionText{
+    max-width: 60rem;
+    text-align: start;
+    flex-basis: 200%;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sectionSpacer {
+    width: 100%;
+    background-color: var(--green-500);
+    height: 1px;
+}
+
+.split{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+#waves{
+    width: 150%;
+    transition: width 1s;
+}
