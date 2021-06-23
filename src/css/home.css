@@ -1,0 +1,24 @@
+#spacer {
+    min-height: 10rem;
+}
+
+#mainContainer {
+    margin: 0 2rem;
+}
+
+#boxContainer {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.textBox {
+    text-align: center;
+    background-color: #0005;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 15rem;
+    padding: 0 1rem;
+}

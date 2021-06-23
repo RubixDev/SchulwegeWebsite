@@ -22,34 +22,9 @@ body {
     vertical-align: middle;
 }
 
-.spacer {
-    min-height: 10rem;
-}
-
-.socicon {
-    margin-top: 3rem;
-}
-
-.socicon:hover {
-    cursor: pointer;
-}
-
-.socicon>i {
-    font-size: 1.75rem;
-}
-
-#mainContainer {
-    margin: 0 2rem;
-}
-
 .title {
     font-size: 3rem;
     text-align: center;
-}
-
-
-#slider {
-    overflow: hidden;
 }
 
 #waves {
@@ -68,23 +43,6 @@ body {
         left: 50%;
         transform: translateX(-50%);
     }
-}
-
-#boxContainer {
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.textBox {
-    text-align: center;
-    background-color: #0005;
-    border-radius: 1rem;
-    width: 25rem;
-    height: 15rem;
-    padding: 0 1rem;
 }
 
 .btn {
