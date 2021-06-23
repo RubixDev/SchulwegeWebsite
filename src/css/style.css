@@ -27,6 +27,10 @@ body {
     text-align: center;
 }
 
+.mainContainer {
+    margin: 0 2rem;
+}
+
 #waves {
     height: 4rem;
     position: fixed;

@@ -2,10 +2,6 @@
     min-height: 10rem;
 }
 
-#mainContainer {
-    margin: 0 2rem;
-}
-
 #boxContainer {
     justify-content: center;
     display: flex;
