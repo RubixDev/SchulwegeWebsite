@@ -11,6 +11,9 @@ h2 {
     left: 50%;
     transform: translateX(-50%);
     margin: 1rem 0;
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: .5rem .5rem 2rem #0004;
 }
 
 #map>img {
