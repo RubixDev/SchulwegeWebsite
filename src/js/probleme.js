@@ -94,8 +94,8 @@ addLoadEvent(function () {
         35.3,
         50,
         1,
-        'Friedenshain',
-        'Am Friedenshain wurde die Fahrrad-Situation scheinbar bereits gelöst, indem das Straßenverkehrsamt einen Fahrradweg etabliert hat. ' +
+        'Fahrradweg am Friedenshain',
+        'Am Friedenshain wurde die Fahrrad Situation scheinbar bereits gelöst, indem das Straßenverkehrsamt einen Fahrradweg etabliert hat. ' +
         'Was dabei allerdings nicht berücksichtigt wurde, ist der Fahrstil der Autofahrer. ' +
         'Die meisten sind ziemlich unvorsichtig, sodass Autos manchmal erst im letzten Moment zum Stehen kommen. ' +
         'Obwohl die Fahrradfahrer grundsätzlich Vorfahrt habem, geben Autofahrer, bevor das Fahrrad die Straße überqueren will, häufig noch einmal Gas. ' +

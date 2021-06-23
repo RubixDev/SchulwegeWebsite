@@ -10,15 +10,14 @@ h2 {
     max-width: fit-content;
     left: 50%;
     transform: translateX(-50%);
-    margin: 1rem 0;
-    overflow: hidden;
-    border-radius: 1rem;
+    margin: 5rem 0;
     box-shadow: .5rem .5rem 2rem #0004;
 }
 
 #map>img {
     max-width: 100%;
     max-height: 42rem;
+    border-radius: 1rem;
 }
 
 #mobileMap {
