@@ -16,14 +16,10 @@ function addMapMarker(x, y, title, text, imageSrc) {
     marker.appendChild(markerCard)
 
     marker.addEventListener('mouseover', function () {
+        for (const otherMarker of document.getElementsByClassName('marker')) {
+            otherMarker.style.zIndex = ''
+        }
         marker.style.zIndex = 15
-    })
-    marker.addEventListener('mouseout', function () {
-        setTimeout(function () {
-            if (getComputedStyle(markerCard).opacity < 0.1) {
-                marker.style.zIndex = ''
-            }
-        }, 400)
     })
 
     map.appendChild(marker)
