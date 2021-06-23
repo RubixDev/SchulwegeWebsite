@@ -49,6 +49,13 @@ addLoadEvent(function () {
         '<span class="vertical-align">Interviews</span>'
     )
 
+    addNavbarListItem(
+        list,
+        '/about',
+        '<i class="fas fa-users"></i>' +
+        '<span class="vertical-align">Über das Projekt</span>'
+    )
+
     navbarList.appendChild(list)
     navbar.appendChild(navbarList)
 
