@@ -18,6 +18,10 @@ body {
     margin: 0;
 }
 
+.vertical-align {
+    vertical-align: middle;
+}
+
 .spacer {
     min-height: 10rem;
 }

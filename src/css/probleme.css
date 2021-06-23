@@ -50,13 +50,12 @@ h2 {
     padding: 10rem 1.5rem 1rem;
     border-radius: 1rem;
     text-align: left;
-    position: relative;
+    position: absolute;
     overflow: hidden;
     font-size: .875rem;
 
     opacity: 0;
     transform: scale(0);
-    transform-origin: top left;
     transition-property: opacity, transform;
     transition-duration: .4s;
 }
