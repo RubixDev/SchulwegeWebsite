@@ -136,7 +136,7 @@
 }
 
 /* ---------- NAVBAR DESKTOP ---------- */
-@media (min-width: 40rem) {
+@media (min-width: 50rem) {
     #nav-checkbox~label {
         display: none;
     }

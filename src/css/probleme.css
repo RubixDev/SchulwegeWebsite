@@ -2,7 +2,7 @@ h2 {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    max-width: 32rem;
+    max-width: 42rem;
 }
 
 #map {
@@ -10,6 +10,7 @@ h2 {
     max-width: fit-content;
     left: 50%;
     transform: translateX(-50%);
+    margin: 2rem 0;
 }
 
 #map>img {
@@ -17,8 +18,11 @@ h2 {
     max-height: 42rem;
 }
 
-#mapMobile {
+#mobileMap {
     display: none;
+    gap: 3rem;
+    justify-content: center;
+    margin: 2rem 0;
 }
 
 @media (max-width: 64rem) {
@@ -26,8 +30,8 @@ h2 {
         display: none;
     }
 
-    #mapMobile {
-        display: block;
+    #mobileMap {
+        display: grid;
     }
 }
 
@@ -44,14 +48,18 @@ h2 {
     font-size: 2rem;
 }
 
-.markerCard {
+.markerCard,
+.mobileCard {
     background-color: var(--gray-light);
-    min-width: 35rem;
     padding: 10rem 1.5rem 1rem;
     border-radius: 1rem;
     text-align: left;
-    position: absolute;
     overflow: hidden;
+}
+
+.markerCard {
+    min-width: 35rem;
+    position: absolute;
     font-size: .875rem;
 
     opacity: 0;
@@ -60,18 +68,35 @@ h2 {
     transition-duration: .4s;
 }
 
+.mobileCard {
+    max-width: 45rem;
+    position: relative;
+    box-shadow: .5rem .5rem 2rem #0004;
+    transition-property: box-shadow, transform;
+    transition-duration: .2s;
+}
+
+.mobileCard:hover {
+    box-shadow: none;
+    transform: scale(101%);
+}
+
 .marker:hover>.markerCard {
     opacity: 100;
     transform: scale(100%);
 }
 
-.markerCardImg {
+.markerCardImg,
+.mobileCardImg {
     position: absolute;
     height: 10rem;
     width: 102%;
     top: -1%;
     left: -1%;
-    z-index: -1;
     background-size: cover;
     background-position: center;
+}
+
+.markerCardImg {
+    z-index: -1;
 }

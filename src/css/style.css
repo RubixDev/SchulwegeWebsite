@@ -1,6 +1,6 @@
 :root {
     --white: #fff;
-    --gray-light: #2e343b;
+    --gray-light: #383f47;
     --gray: #24292e;
     --green-500: #679713;
     --contrast: #F28705;
@@ -42,8 +42,8 @@ body {
     margin: 0 2rem;
 }
 
-#title {
-    font-size: 3.5rem;
+.title {
+    font-size: 3rem;
     text-align: center;
 }
 

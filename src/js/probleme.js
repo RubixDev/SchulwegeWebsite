@@ -1,4 +1,5 @@
 function addMapMarker(x, y, direction, title, text, imageSrc) {
+    // Desktop
     const map = document.getElementById('map')
 
     const marker = document.createElement('div')
@@ -47,6 +48,20 @@ function addMapMarker(x, y, direction, title, text, imageSrc) {
     })
 
     map.appendChild(marker)
+
+    // Mobile
+    const mobileMap = document.getElementById('mobileMap')
+
+    const mobileCard = document.createElement('div')
+    mobileCard.classList = 'mobileCard'
+
+    const mobileCardImg = document.createElement('div')
+    mobileCardImg.className = 'mobileCardImg'
+    mobileCardImg.style.backgroundImage = `url('../assets/map/${imageSrc}')`
+    mobileCard.appendChild(mobileCardImg)
+    mobileCard.innerHTML += `<h3>${title}</h3><p>${text}</p>`
+
+    mobileMap.appendChild(mobileCard)
 }
 
 addLoadEvent(function () {
