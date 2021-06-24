@@ -102,11 +102,18 @@ addLoadEvent(function () {
         'Die meisten sind ziemlich unvorsichtig, sodass Autos manchmal erst im letzten Moment zum Stehen kommen. ' +
         'Obwohl die Fahrradfahrer grundsätzlich Vorfahrt habem, geben Autofahrer, bevor das Fahrrad die Straße überqueren will, häufig noch einmal Gas. ' +
         'Auch an dieser Stelle befindet sich aktuell eine Baustelle mitten im Weg. Folglich müssen Fahrradfahrer vorsichtig den hohen Bordsteig passieren. ' +
-        'Dabei werden sie allerdings oft von Autos unter Druck gesetzt.<br><br>' +
+        'Dabei werden sie allerdings oft von Autos unter Druck gesetzt.',
+        'friedenshain-radweg.webp'
+    )
+    addMapMarker(
+        41,
+        30,
+        2,
+        'Straße am Friedenshain',
         'Wenn man zudem aus der Region Lichtscheid kommt, muss man zwischen Am Freudenberg und Friedenshain den Fahrradweg neben der Schnellstraße nutzen. ' +
         'Am Ende des Fahrradweges muss in die Jägerhofstraße eingebogen werden. ' +
         'Viele Fahrräder müssen am Ende fast zum Stehen kommen, um einigermaßen in die Straße hineinschauen zu können.',
-        ''
+        'friedenshain-straße.webp'
     )
     addMapMarker(
         24.2,
@@ -114,7 +121,7 @@ addLoadEvent(function () {
         1,
         'Jung-Stilling Weg',
         'Die meisten Fahrradfahrer, die zum Schulzentrum Süd wollen, fahren wohl über den Jung-Stilling Weg. ' +
-        'Viele Schüler kommen auch zu Fuß von der Bushaltestelle Jung-Stilling Weg, ' +
+        'Viele Schülerinnen und Schüler kommen auch zu Fuß von der Bushaltestelle Jung-Stilling Weg, ' +
         'allerdings ist das manchmal problematisch, da viele Autofahrer viel zu schnell von der Cronenberger Straße in den ' +
         'Jung-Stilling Weg abbiegen und damit die Fahrradfahrer gefährden. ' +
         'Außerdem ist der Bürgersteig nur von einer weißen Linie gekennzeichnet und kann somit leicht von Autofahrern übersehen werden. ' +
@@ -127,7 +134,7 @@ addLoadEvent(function () {
         3,
         'Unterführung in Lichtscheid',
         'Wenn man von der Schule kommt und entweder bei Lichtscheid wohnt oder dort umsteigen muss, sind die meisten gezwungen eine Unterführung zu nutzen. ' +
-        'Diese ist lang und ungepflegt: Es gibt Altglas und Papier Container, die meist überfüllt sind und was nicht mehr reinpasst, ' +
+        'Diese ist lang und ungepflegt: Es gibt Altglas- und Papiercontainer, die meist überfüllt sind und was nicht mehr reinpasst, ' +
         'wird auf den Bürgersteig drumherum geworfen. Die Schüler, die morgens auch durch die Unterführung müssen, lassen sich im Winter oft fahren, ' +
         'da die Unterführung in den dunklen Morgenstunden im Winter zu schlecht beleuchtet  ist. Außerdem gibt es auf der Treppe keinen Winterdienst, ' +
         'was sie vor allem bei Schnee sehr rutschig macht. Das schreckt manche Schülerinnen und Schüler vom Busfahren ab, ' +
