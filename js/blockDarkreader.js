@@ -26,7 +26,7 @@
     // Fake html meta tag to disable darkreader.
     const fakeMetaTag = document.createElement("meta")
     fakeMetaTag.name = "darkreader"
-    fakeMetaTag.content = "NO-DARKREADER-PLUGIN"
+    fakeMetaTag.content = "off"
 
     // Alter the real metatag with the fake one.
     const alterMetaTag = function () {
@@ -70,7 +70,7 @@
     ) {
         console.error(
             "Please add the line bellow to your index.html:\n",
-            '<meta name="darkreader" content="NO-DARKREADER-PLUGIN">\n',
+            '<meta name="darkreader" content="off">\n',
             "or you may encounter performance issues!\n",
             "\nplease take a look at: https://github.com/hadialqattan/no-darkreader#usage"
         )
