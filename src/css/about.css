@@ -1,6 +1,5 @@
 section {
     padding: 1rem 2rem 3rem;
-    text-align: center;
 }
 
 .sectionText {
@@ -9,12 +8,6 @@ section {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-}
-
-.spacer {
-    width: 100%;
-    height: 1px;
-    background-color: var(--green-500);
 }
 
 .split {
