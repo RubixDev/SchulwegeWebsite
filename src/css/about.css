@@ -24,13 +24,13 @@ section {
     justify-content: center;
 }
 
-ul {
+.split>div>ul {
     list-style-type: none;
     padding: 0;
     margin-top: 2rem;
     width: 12rem;
 }
 
-li {
+.split>div>ul>li {
     margin: .5rem 0;
 }
