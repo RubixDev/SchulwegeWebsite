@@ -1,6 +1,4 @@
 # SchulwegeWebsite
-
-**The source files are located in the docs folder, as it's the only subfolder one can choose as root for [GitHub Pages](https://rubixdev.github.io/SchulwegeWebsite)**
 ## Context
 This website was created during a project week from the 21.06.2021 until 25.06.2021 on our school.
 Each group of about four school students was accompanied and supervised by one student of the University of Wuppertal.
