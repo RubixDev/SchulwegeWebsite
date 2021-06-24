@@ -12,7 +12,7 @@ function addNavbarListItem(list, href, icon, text) {
 }
 
 addLoadEvent(function () {
-    let navbar = document.getElementsByTagName('nav');
+    let navbar = document.getElementsByTagName('nav')
     if (!navbar) {
         return
     }

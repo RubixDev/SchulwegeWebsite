@@ -1,7 +1,7 @@
 let imageIndex = 0
 
 function nextImage() {
-    const images = document.getElementById('imageSlider').children;
+    const images = document.getElementById('imageSlider').children
     for (const image of images) {
         image.style.opacity = 0
     }
