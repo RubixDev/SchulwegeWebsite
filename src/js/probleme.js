@@ -71,7 +71,9 @@ addLoadEvent(function () {
         1,
         'Fahrradständer am CFG',
         'Obwohl sich am CFG bereits einige Fahrradständer befinden, scheinen diese oft, besonders an warmen Tagen, nicht auszureichen. ' +
-        'Außerdem befinden sie sich nur auf dem Osthof und nicht auf dem Westhof.',
+        'Dies ist besonders ärgerlich für die Schüler und Schülerinnen, die erst in der ersten Stunde kommen, da zu dieser Uhrzeit bereits alle Fahrradständer vergeben sind. ' +
+        'Wenn das Fahrrad dann irgendwo in das Gebüsch gestellt werden muss, überlegen die Schüler und Schülerinnen sich gleich, ob sich das Fahrradfahren lohnt. ' +
+        'Da das Fahrrad ein sehr wichtiges und nachhaltiges Transportmittel ist, sollte die Stadt oder die Schule definitiv darüber nachdenken, die Kapazitäten zu erweitern.',
         'cfg-fahrradständer.jpg'
     )
     addMapMarker(
