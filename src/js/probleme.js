@@ -82,15 +82,24 @@ addLoadEvent(function () {
         1,
         'Hahnerberg Kreuzung',
         'Viele der Schülerinnen und Schüler müssen die große Hahnerberg-Kreuzung umfahren. Im Moment stellt dies einige Probleme dar. ' +
-        'Auf der Kreuzung stehen vielen Baustellenschilder, sodass man schnell  den Überblick verlieren kann. ' +
+        'Auf der Kreuzung stehen vielen Baustellenschilder, sodass man schnell den Überblick verlieren kann. ' +
         'Um die Kreuzung mit dem Fahrrad zu überqueren, ist es sicherer, die vorhandenen Ampeln zu nutzen. ' +
         'Mit dem Fahrrad auf der Straße zu bleiben könnte man fast schon als Selbstmord bezeichnen. ' +
         'Bereits beim Einordnen in die richtige Abbiegerspur treten Probleme auf. ' +
         'Da dort sowohl Busse und Autos, als auch größere Laster herfahren, werden Fahrradfahrer schnell übersehen. ' +
-        'Wenn man sich doch dafür entscheidet die Ampeln zu nutzen, treten  weitere Komplikationen auf. ' +
-        'Größtenteils sind die Bürgersteige mit Schlaglöchern oder Baumwurzeln übersehen, sodass Fahrradfahrer ausweichen müssen. ' +
-        'Zudem sind die Bürgersteige viel zu schmal. Es ist Fußgängern und Fahrradfahrern nicht möglich  einen Weg zu benutzen.',
+        'Wenn man sich doch dafür entscheidet die Ampeln zu nutzen, treten weitere Komplikationen auf. ',
         'hahnerberg.webp'
+    )
+    addMapMarker(
+        31.3,
+        99,
+        1,
+        'Wurzeln in Fußwegen',
+        'Auf großen Haupstraßen wie der Hahnerberger Straße Fahrrad zu fahren trauen sich nur wenige, weshalb die Meisten auf die nicht ganz regelkonforme Alternative, den Fußweg, ausweichen. ' +
+        'Diese sind allerdings größtenteils mit Schlaglöchern oder Baumwurzeln übersehen, sodass Fahrradfahrer ausweichen müssen. ' +
+        'Zudem sind die Bürgersteige viel zu schmal. Es ist Fußgängern und Fahrradfahrern nicht möglich den gleichen Weg zu benutzen. ' +
+        'Fahrradfahrer werden zudem nicht von allen Fußgängern berücksichtigt, was natürlich berechtigt, aber ärgerlich ist, da der Fußweg der einzige sichere Weg ist.',
+        'wurzel.webp'
     )
     addMapMarker(
         35.3,
@@ -136,7 +145,7 @@ addLoadEvent(function () {
         'Wenn man von der Schule kommt und entweder bei Lichtscheid wohnt oder dort umsteigen muss, sind die meisten gezwungen eine Unterführung zu nutzen. ' +
         'Diese ist lang und ungepflegt: Es gibt Altglas- und Papiercontainer, die meist überfüllt sind und was nicht mehr reinpasst, ' +
         'wird auf den Bürgersteig drumherum geworfen. Die Schüler, die morgens auch durch die Unterführung müssen, lassen sich im Winter oft fahren, ' +
-        'da die Unterführung in den dunklen Morgenstunden im Winter zu schlecht beleuchtet  ist. Außerdem gibt es auf der Treppe keinen Winterdienst, ' +
+        'da die Unterführung in den dunklen Morgenstunden im Winter zu schlecht beleuchtet ist. Außerdem gibt es auf der Treppe keinen Winterdienst, ' +
         'was sie vor allem bei Schnee sehr rutschig macht. Das schreckt manche Schülerinnen und Schüler vom Busfahren ab, ' +
         'sodass sie ihre Eltern darum beten, sie zur Schule zu fahren. Auch die Tatsache, ' +
         'dass die Busse im Winter oft Stunden zu spät oder gar nicht kommen, ' +
