@@ -147,7 +147,7 @@ addLoadEvent(function () {
         'wird auf den Bürgersteig drumherum geworfen. Die Schüler, die morgens auch durch die Unterführung müssen, lassen sich im Winter oft fahren, ' +
         'da die Unterführung in den dunklen Morgenstunden im Winter zu schlecht beleuchtet ist. Außerdem gibt es auf der Treppe keinen Winterdienst, ' +
         'was sie vor allem bei Schnee sehr rutschig macht. Das schreckt manche Schülerinnen und Schüler vom Busfahren ab, ' +
-        'sodass sie ihre Eltern darum beten, sie zur Schule zu fahren. Auch die Tatsache, ' +
+        'sodass sie ihre Eltern darum bitten, sie zur Schule zu fahren. Auch die Tatsache, ' +
         'dass die Busse im Winter oft Stunden zu spät oder gar nicht kommen, ' +
         'weil sie mit ihren Sommerreifen im Winter den Berg in Ronsdorf nicht hoch fahren können, hält viele vom Busfahren ab. ' +
         'Bei den Bussen gibt es noch ein Problem: Es kommen viele verschiedene Busse aus Ronsdorf, welche zum Schulzentrum Süd fahren. ' +
