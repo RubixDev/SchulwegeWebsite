@@ -88,6 +88,15 @@ h2 {
     transform: scale(100%);
 }
 
+.markerCard::before,
+.mobileCard::before {
+    content: 'Loading Image...';
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .markerCardImg,
 .mobileCardImg {
     position: absolute;
