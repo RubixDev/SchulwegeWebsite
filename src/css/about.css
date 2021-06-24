@@ -35,3 +35,13 @@ section {
 .split>div>ul>li {
     margin: .5rem 0;
 }
+
+#emails {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+p>a {
+    color: var(--contrast);
+}
