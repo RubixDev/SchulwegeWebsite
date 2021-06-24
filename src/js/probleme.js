@@ -109,7 +109,7 @@ addLoadEvent(function () {
         'Am Friedenshain wurde die Fahrrad Situation scheinbar bereits gelöst, indem das Straßenverkehrsamt einen Fahrradweg etabliert hat. ' +
         'Was dabei allerdings nicht berücksichtigt wurde, ist der Fahrstil der Autofahrer. ' +
         'Die meisten sind ziemlich unvorsichtig, sodass Autos manchmal erst im letzten Moment zum Stehen kommen. ' +
-        'Obwohl die Fahrradfahrer grundsätzlich Vorfahrt habem, geben Autofahrer, bevor das Fahrrad die Straße überqueren will, häufig noch einmal Gas. ' +
+        'Obwohl die Fahrradfahrer grundsätzlich Vorfahrt haben, geben Autofahrer, bevor das Fahrrad die Straße überqueren will, häufig noch einmal Gas. ' +
         'Auch an dieser Stelle befindet sich aktuell eine Baustelle mitten im Weg. Folglich müssen Fahrradfahrer vorsichtig den hohen Bordsteig passieren. ' +
         'Dabei werden sie allerdings oft von Autos unter Druck gesetzt.',
         'friedenshain-radweg.webp'
@@ -121,7 +121,7 @@ addLoadEvent(function () {
         'Straße am Friedenshain',
         'Wenn man zudem aus der Region Lichtscheid kommt, muss man zwischen Am Freudenberg und Friedenshain den Fahrradweg neben der Schnellstraße nutzen. ' +
         'Am Ende des Fahrradweges muss in die Jägerhofstraße eingebogen werden. ' +
-        'Viele Fahrräder müssen am Ende fast zum Stehen kommen, um einigermaßen in die Straße hineinschauen zu können.',
+        'Viele Fahrräder müssen am Ende fast zum Stehen kommen, um einigermaßen in die Straße einsehen zu können, und einen Unfall zu vermeiden.',
         'friedenshain-straße.webp'
     )
     addMapMarker(
@@ -145,7 +145,7 @@ addLoadEvent(function () {
         'Wenn man von der Schule kommt und entweder bei Lichtscheid wohnt oder dort umsteigen muss, sind die meisten gezwungen eine Unterführung zu nutzen. ' +
         'Diese ist lang und ungepflegt: Es gibt Altglas- und Papiercontainer, die meist überfüllt sind und was nicht mehr reinpasst, ' +
         'wird auf den Bürgersteig drumherum geworfen. Die Schüler, die morgens auch durch die Unterführung müssen, lassen sich im Winter oft fahren, ' +
-        'da die Unterführung in den dunklen Morgenstunden im Winter zu schlecht beleuchtet ist. Außerdem gibt es auf der Treppe keinen Winterdienst, ' +
+        'da die Unterführung in den dunklen Morgenstunden zu schlecht beleuchtet ist. Außerdem gibt es auf der Treppe keinen Winterdienst, ' +
         'was sie vor allem bei Schnee sehr rutschig macht. Das schreckt manche Schülerinnen und Schüler vom Busfahren ab, ' +
         'sodass sie ihre Eltern darum bitten, sie zur Schule zu fahren. Auch die Tatsache, ' +
         'dass die Busse im Winter oft Stunden zu spät oder gar nicht kommen, ' +
