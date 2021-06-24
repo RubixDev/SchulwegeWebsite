@@ -45,14 +45,12 @@ addLoadEvent(function () {
         'fas fa-lightbulb',
         'Ideen'
     )
-
     addNavbarListItem(
         list,
         '/interviews',
         'fas fa-microphone-alt',
         'Interviews'
     )
-
     addNavbarListItem(
         list,
         '/about',

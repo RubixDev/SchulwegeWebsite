@@ -66,11 +66,11 @@
 }
 
 /* ---- NAVBAR OPEN ----- */
-#nav-checkbox:checked~#navbar-list {
+#nav-checkbox:checked ~ #navbar-list {
     transform: scaleY(1);
 }
 
-#nav-checkbox:checked~#navbar-list ul {
+#nav-checkbox:checked ~ #navbar-list ul {
     opacity: 1;
     transition: opacity .2s ease-in-out .2s;
 }
@@ -80,7 +80,7 @@
     display: none;
 }
 
-#nav-checkbox~label {
+#nav-checkbox ~ label {
     position: fixed;
     width: 2rem;
     height: 2rem;
@@ -123,21 +123,21 @@
 }
 
 /* ---- HAMBURGER OPEN ---- */
-#nav-checkbox:checked~label #hamburger-middle {
+#nav-checkbox:checked ~ label #hamburger-middle {
     width: 0;
 }
 
-#nav-checkbox:checked~label #hamburger-middle::before {
+#nav-checkbox:checked ~ label #hamburger-middle::before {
     transform: rotate(45deg) translate(-.3125rem, -.3125rem);
 }
 
-#nav-checkbox:checked~label #hamburger-middle::after {
+#nav-checkbox:checked ~ label #hamburger-middle::after {
     transform: rotate(-45deg) translate(-.3125rem, .3125rem);
 }
 
 /* ---------- NAVBAR DESKTOP ---------- */
 @media (min-width: 44rem) {
-    #nav-checkbox~label {
+    #nav-checkbox ~ label {
         display: none;
     }
 

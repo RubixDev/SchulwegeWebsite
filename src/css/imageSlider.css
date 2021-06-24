@@ -18,7 +18,7 @@
     background-color: #0005;
 }
 
-#imageSlider>img {
+#imageSlider > img {
     position: absolute;
     top: 0;
     left: 0;

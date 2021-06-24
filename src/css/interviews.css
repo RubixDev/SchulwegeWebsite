@@ -46,8 +46,9 @@ section {
 }
 
 @media (max-width: 42rem) {
-    .answer,
-    .question {
+
+    .question,
+    .answer {
         max-width: calc(100% - 2rem);
     }
 }
