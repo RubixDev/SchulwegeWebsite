@@ -8,7 +8,7 @@ function _addNavbarListItem(list, href, html) {
 }
 
 function addNavbarListItem(list, href, icon, text) {
-    if (window.location.href.includes('github.io')) href = `/SchulwegeWebsite${href}`
+    if (window.location.href.includes('docs') || window.location.href.includes('github.io')) href = `/${window.location.pathname.split('/')[1]}${href}`
     _addNavbarListItem(list, href, `<i class="${icon}"></i><span style="vertical-align: middle;">${text}</span>`)
 }
 
