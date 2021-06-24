@@ -18,3 +18,16 @@
 .mainContainer {
     margin-bottom: 4rem;
 }
+
+#introText {
+    max-width: 60rem;
+    text-align: start;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0003;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    margin: 3rem 0;
+    font-size: 1.1rem;
+}
