@@ -71,7 +71,7 @@ addLoadEvent(function () {
         1,
         'Fahrradständer am CFG',
         'Obwohl sich am CFG bereits einige Fahrradständer befinden, scheinen diese oft, besonders an warmen Tagen, nicht auszureichen. ' +
-        'Dies ist besonders ärgerlich für die Schülerinnen und Schüler, die erst in der ersten Stunde kommen, da zu dieser Uhrzeit bereits alle Fahrradständer vergeben sind. ' +
+        'Dies ist besonders ärgerlich für die Schülerinnen und Schüler, die erst zu der ersten, statt der nullten Stunde kommen, da zu dieser Uhrzeit bereits alle Fahrradständer vergeben sind. ' +
         'Wenn das Fahrrad dann irgendwo in das Gebüsch gestellt werden muss, überlegen die Schülerinnen und Schüler sich gleich, ob sich das Fahrradfahren lohnt. ' +
         'Da das Fahrrad ein sehr wichtiges und nachhaltiges Transportmittel ist, sollte die Stadt oder die Schule definitiv darüber nachdenken, die Kapazitäten zu erweitern.',
         'cfg-fahrradständer.webp'
@@ -115,13 +115,14 @@ addLoadEvent(function () {
         'friedenshain-radweg.webp'
     )
     addMapMarker(
-        41,
-        30,
+        42,
+        40.8,
         2,
         'Straße am Friedenshain',
-        'Wenn man zudem aus der Region Lichtscheid kommt, muss man zwischen Am Freudenberg und Friedenshain den Fahrradweg neben der Schnellstraße nutzen. ' +
-        'Am Ende des Fahrradweges muss in die Jägerhofstraße eingebogen werden. ' +
-        'Viele Fahrräder müssen am Ende fast zum Stehen kommen, um einigermaßen in die Straße einsehen zu können, und einen Unfall zu vermeiden.',
+        'Wenn man aus der Region Lichtscheid kommt, muss man zwischen Am Freudenberg und Friedenshain den Fahrradweg neben der Schnellstraße nutzen. ' +
+        'Der Fahrradweg endet an der Ecke Freudenberger Straße - Hermannshöhe. ' +
+        'Viele Fahrräder müssen am Ende fast zum Stehen kommen, um einigermaßen in die Hermannshöhe einsehen zu können und somit einen Unfall zu vermeiden, ' +
+        'ehe sie auf der Freudenberger Straße weiter fahren.',
         'friedenshain-straße.webp'
     )
     addMapMarker(
@@ -142,7 +143,7 @@ addLoadEvent(function () {
         13,
         3,
         'Unterführung in Lichtscheid',
-        'Wenn man von der Schule kommt und entweder bei Lichtscheid wohnt oder dort umsteigen muss, sind die meisten gezwungen eine Unterführung zu nutzen. ' +
+        'Wenn man von der Schule kommt und entweder bei Lichtscheid wohnt oder dort umsteigen muss, sind die Meisten gezwungen eine Unterführung zu nutzen. ' +
         'Diese ist lang und ungepflegt: Es gibt Altglas- und Papiercontainer, die meist überfüllt sind und was nicht mehr reinpasst, ' +
         'wird auf den Bürgersteig drumherum geworfen. Die Schüler, die morgens auch durch die Unterführung müssen, lassen sich im Winter oft fahren, ' +
         'da die Unterführung in den dunklen Morgenstunden zu schlecht beleuchtet ist. Außerdem gibt es auf der Treppe keinen Winterdienst, ' +
