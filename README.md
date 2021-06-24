@@ -7,6 +7,6 @@ The general theme was "sustainable mobility" in which we concentrated on the way
 **It is entirely in german, as it was made in a german school for a german project.**
 
 ## Links to the final sites
-https://rubixdev.github.io/SchulwegeWebsite
-https://schulwege.rubixdev.de  
-https://schulwege.mik-mueller.de
+- https://rubixdev.github.io/SchulwegeWebsite
+- https://schulwege.rubixdev.de
+- https://schulwege.mik-mueller.de
